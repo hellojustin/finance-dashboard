@@ -6,7 +6,6 @@ A simple html site that displays Google Spreadsheet charts.
 1. Install Raspbian (full, with desktop) on an SD card, and fire it up in a Pi.
 1. Install additional packages:
    ```sh
-   apt-get update
    sudo apt-get update
    sudo apt-get install chromium
    sudo apt-get install chromium-browser
