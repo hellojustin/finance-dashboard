@@ -1,0 +1,8 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+@point-rpi
+@chromium-browser --kiosk --disable-scrollbar https://hellojustin.github.io/finance-dashboard/
+@xset s noblank
+@xset s off
+@xset -dpms
