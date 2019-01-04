@@ -8,6 +8,14 @@
       }
     </style>
     <script>
+      var pattern    = /[?&]([^?^&^=]+)(?:=([^?^&^=]+))?/gi,
+          query      = window.location.search,
+          paramPairs = query.match(pattern),
+          params     = {}
+
+      paramPairs.forEach(function(pair) { pattern.exec}
+
+
       setInterval(function() {
         document.getElementById('frame-1').src = document.getElementById('frame-1').src
         document.getElementById('frame-2').src = document.getElementById('frame-2').src
